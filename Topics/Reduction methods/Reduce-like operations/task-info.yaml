@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: max
+  - text: filter
+  - text: average
+  - text: min
+  - text: distinct
+  - text: sum
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2439#comment
+status: Solved
+record: -1
+local_check: false

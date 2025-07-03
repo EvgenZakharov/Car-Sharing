@@ -1,0 +1,79 @@
+type: edu
+custom_name: "Welcome, customer!"
+files:
+  - name: src/carsharing/Main.java
+    visible: true
+    learner_created: false
+  - name: test/CarSharingTest.java
+    visible: false
+    learner_created: false
+  - name: test/DatabaseUtil.java
+    visible: false
+    learner_created: false
+  - name: src/carsharing/Car.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/MainMenu.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/Company.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/Menu.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/ManagerMenu.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/CarMenu.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/CompanyDao.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/DbCarDao.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/DbCompanyDao.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/CompanyMenu.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/CarDao.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/DbClient.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/Customer.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/CustomerDao.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/DbCustomerDao.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/CustomerMenu.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/RentMainMenu.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/RentCompanyMenu.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/RentCarMenu.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/db/carsharing.mv.db
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/11504#comment
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">Hyperskill</a>
+    to continue learning.
+  time: "Thu, 03 Jul 2025 17:10:16 UTC"
+record: 4

@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: list.stream().filter(...).map(...).filter(...).reduce(...);
+  - text: list.stream(...).reduce(...).map();
+  - text: list.stream().map(...).map(...).map(...).filter(...).collect(...);
+  - text: list.stream().reduce(...).collect(...);
+  - text: list.stream().map(...).collect(...);
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2444#comment
+status: Solved
+record: -1
+local_check: false

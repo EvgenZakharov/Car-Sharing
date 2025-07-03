@@ -1,0 +1,9 @@
+content:
+  - Theory
+  - DTO definition
+  - The purposes of ModelMapper
+  - Converting a DTO to a Java class implementation
+  - DTO core patterns
+  - Implementation of a DTO
+  - Converting a Java class to a DTO implementation
+  - Application

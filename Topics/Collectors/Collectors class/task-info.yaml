@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: CollectorImpl
+  - text: Collectors
+  - text: Collector
+  - text: Collection
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10518#comment
+status: Solved
+record: -1
+local_check: false

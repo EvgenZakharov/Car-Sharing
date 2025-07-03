@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "4, 5, 3, 6, 2"
+  - text: "4, 5, 3, 8, 6, 2, 7"
+  - text: "8, 7"
+  - text: "4, 5, 3, 2"
+  - text: "8, 6, 7"
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2417#comment
+status: Solved
+record: -1
+local_check: false

@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: A design pattern
+  - text: None of the above
+  - text: A library for data transfer by HTTP
+  - text: A Java record
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/25614#comment
+status: Solved
+record: -1
+local_check: false

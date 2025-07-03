@@ -1,0 +1,24 @@
+type: matching
+captions:
+  - map
+  - mapToInt
+  - flatMap
+  - mapToObj
+options:
+  - transforms stream&#x27;s elements into others (any type)
+  - transforms a stream of primitive values to a generic stream
+  - transforms each element of a stream into another stream and concatenates all streams
+    into one
+  - transforms stream&#x27;s elements into primitive integers
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2415#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3

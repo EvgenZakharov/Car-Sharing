@@ -1,0 +1,41 @@
+content:
+  - Comparator
+  - Functional data processing with streams
+  - Reduction methods
+  - Collectors
+  - Detecting annotations
+  - Custom annotations and types of annotations
+  - Singleton
+  - Encapsulating object creation
+  - Factory method (1)
+  - Builder
+  - Decorator
+  - Strategy
+  - Data Access Object for JDBC
+  - Template method
+  - Observer
+  - Generic methods
+  - Function composition
+  - Map and flatMap
+  - BigInteger
+  - BigDecimal
+  - Unit testing with JUnit
+  - Test lifecycle annotations
+  - Parameterized test
+  - Standard logger
+  - ThreadLocal
+  - Executors
+  - Class Loader
+  - Patterns and Matcher
+  - Replacing characters with Regex
+  - Match results
+  - Retrieving Class instances
+  - Dealing with modifiers
+  - Manipulating fields and methods
+  - Stream filtering
+  - Streams of primitives
+  - Taking elements
+  - Infinite streams
+  - Stream pipelines
+  - Grouping collectors
+  - Data Transfer Object in Spring

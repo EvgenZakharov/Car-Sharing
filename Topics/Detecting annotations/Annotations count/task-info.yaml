@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "0, annotations can be applied only to methods"
+  - text: 1 annotation
+  - text: 2 annotations
+  - text: As many as you want
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8113#comment
+status: Solved
+record: -1
+local_check: false

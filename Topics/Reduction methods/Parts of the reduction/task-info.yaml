@@ -1,0 +1,23 @@
+type: matching
+captions:
+  - The default result if there are no elements in the stream
+  - The sum of all processed integers so far
+  - the next elements of the stream
+  - The result of the reduction if the stream has elements.
+options:
+  - b
+  - d
+  - a
+  - c
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3353#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3

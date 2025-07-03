@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: A POJO (Plain Old Java Object) class
+  - text: ModelMapper
+  - text: A Java record
+  - text: A Java class with Lombok annotations
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/25617#comment
+status: Solved
+record: -1
+local_check: false

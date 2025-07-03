@@ -1,0 +1,15 @@
+type: theory
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+  - name: src/Message.java
+    visible: true
+    learner_created: true
+  - name: src/MessageContentComparator.java
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/12966#comment
+status: Solved
+record: -1
+post_submission_on_open: true

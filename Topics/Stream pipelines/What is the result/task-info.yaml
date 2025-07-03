@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "1, 0, 1, 4, 4, 9"
+  - text: "1, 0, 4, 9, 16, 36"
+  - text: "1, 0, 4, 9"
+  - text: "16, 36"
+  - text: "1, 0"
+  - text: It's empty
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2442#comment
+status: Solved
+record: -1
+custom_name: What is the result?
+local_check: false

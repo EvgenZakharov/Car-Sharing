@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="H2" database="H2" id="17b5818e-d33a-4d45-9235-fbc88d88db7b" >
+	<schema name="PUBLIC" catalogname="CARSHARING" />
+	<layout name="Main Diagram" id="e7cb4d5c-208d-4049-a4f1-285dba6f1cbc" show_relation="columns" >
+		<callout x="57" y="57" pointer="Round" >
+			<comment><![CDATA[Создайте новые таблицы, щелкнув диаграмму правой кнопкой мыши.
+Дважды щелкните заголовки таблиц, столбцы или внешние ключи для редактирования.
+Структура схемы будет сохранена в файле проектной модели.]]></comment>
+		</callout>
+	</layout>
+</project>

@@ -1,0 +1,64 @@
+************************************************************************************************************************
+To get only available car list you can use this query:
+                    SELECT car.id, car.name, car.company_id
+                    FROM car LEFT JOIN customer
+                    ON car.id = customer.rented_car_id
+                    WHERE customer.name IS NULL;
+************************************************************************************************************************
+private final String notRentedCarByCompanyId =
+"SELECT CAR.id as id, CAR.name as name, CAR.company_id as company_id
+FROM CAR LEFT JOIN CUSTOMER ON CAR.id = CUSTOMER.rented_car_id
+WHERE company_id = ? AND CUSTOMER.rented_car_id is null;";
+************************************************************************************************************************
+To figure out available car list of some company:
+1. Select all cars from car table which has company id = given company id and car id is not in Customer tables rented_car_id column
+
+SELECT
+         ID,NAME,COMPANY_ID
+FROM
+         CAR
+WHERE
+         COMPANY_ID =  companyId
+         AND
+         ID NOT IN (
+                             SELECT RENTED_CAR_ID
+                             FROM CUSTOMER
+                             WHERE RENTED_CAR_ID IS NOT NULL)
+************************************************************************************************************************
+When a customer returns a car,  set  the RENTED_CAR_ID  to null using
+String updateQuery = "UPDATE CUSTOMER SET RENTED_CAR_ID = ? WHERE ID = ?";
+ preparedStatement.setNull(1, java.sql.Types.INTEGER);
+************************************************************************************************************************
+This is not needed ! No test manipulation or fix needed..
+Instead read the Example carefully: The Back menu option in the Company-Menu (The one where you can create or
+list cars of a company) takes you back 2 levels to the manager menu (i.e. no while loop in the companies listing menu).
+************************************************************************************************************************
+the only way i could see to fix this is fixing the tests?
+
+
+        program.execute("0");
+
+        program.execute("2");
+//        program.execute("2");
+
+        output = program.execute("1");
+
+        if (!output.contains("The car list is empty!")) {
+            return wrong("If no cars were added to the company you should print 'The car list is empty!'");
+        }
+
+        program.execute("2");
+        program.execute("Lamborghini Urraco");
+
+        output = program.execute("1");
+
+        if (!output.contains("3. Lamborghini Urraco")) {
+            return wrong("In the car list expected 'Lamborghini Urraco' car.\n" +
+                "Your output should contain '1. Lamborghini Urraco'");
+        }
+
+honestly the tests dont seem to be correct.
+************************************************************************************************************************
+guys! Instead of dropping the table of a car, just add another column which will count an order of cars respective
+to their company. For example, add 'orderOfCar' column in db and do your work! It worked for me at least.
+

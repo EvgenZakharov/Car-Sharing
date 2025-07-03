@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: dropUntil
+  - text: dropWhile
+  - text: skipUntil
+  - text: skip
+  - text: filter
+  - text: skipWhile
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8415#comment
+status: Solved
+record: -1
+custom_name: The name of a method
+local_check: false

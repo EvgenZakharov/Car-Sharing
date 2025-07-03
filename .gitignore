@@ -1,0 +1,179 @@
+# Project exclude paths
+/.gradle/
+/Car Sharing/task/build/
+/Car Sharing/task/out/
+/Car Sharing/task/out/production/classes/
+/Topics/BigDecimal/Average/out/
+/Topics/BigDecimal/Average/out/production/classes/
+/Topics/BigDecimal/Deposit/out/
+/Topics/BigDecimal/Deposit/out/production/classes/
+/Topics/BigDecimal/Gold mining/out/
+/Topics/BigDecimal/Gold mining/out/production/classes/
+/Topics/BigDecimal/Multiplication/out/
+/Topics/BigDecimal/Multiplication/out/production/classes/
+/Topics/BigDecimal/Rounding with a given precision/out/
+/Topics/BigDecimal/Rounding with a given precision/out/production/classes/
+/Topics/BigInteger/An expression with large numbers/out/
+/Topics/BigInteger/An expression with large numbers/out/production/classes/
+/Topics/BigInteger/The smallest value/out/
+/Topics/BigInteger/The smallest value/out/production/classes/
+/Topics/Builder/Builder/out/
+/Topics/Builder/Builder/out/production/classes/
+/Topics/Builder/Builder (1)/out/
+/Topics/Builder/Builder (1)/out/production/classes/
+/Topics/Builder/Geek Builder/out/
+/Topics/Builder/Geek Builder/out/production/classes/
+/Topics/Builder/Robot Builder/out/
+/Topics/Builder/Robot Builder/out/production/classes/
+/Topics/Builder/Subway Sandwich/out/
+/Topics/Builder/Subway Sandwich/out/production/classes/
+/Topics/Class Loader/Theory/out/
+/Topics/Class Loader/Theory/out/production/classes/
+/Topics/Class Loader/What class loader is used/out/
+/Topics/Class Loader/What class loader is used/out/production/classes/
+/Topics/Collectors/ASCII Art/out/
+/Topics/Collectors/ASCII Art/out/production/classes/
+/Topics/Collectors/Set average/out/
+/Topics/Collectors/Set average/out/production/classes/
+/Topics/Collectors/Theory/out/
+/Topics/Collectors/Theory/out/production/classes/
+/Topics/Comparator/Theory/out/
+/Topics/Comparator/Theory/out/production/classes/
+/Topics/Decorator/Breakfast Decorator/out/
+/Topics/Decorator/Breakfast Decorator/out/production/classes/
+/Topics/Decorator/Coffee Decorator/out/
+/Topics/Decorator/Coffee Decorator/out/production/classes/
+/Topics/Decorator/Pizza Decorator/out/
+/Topics/Decorator/Pizza Decorator/out/production/classes/
+/Topics/Detecting annotations/Theory/out/
+/Topics/Detecting annotations/Theory/out/production/classes/
+/Topics/Encapsulating object creation/Static factory methods for Time/out/
+/Topics/Encapsulating object creation/Static factory methods for Time/out/production/classes/
+/Topics/Encapsulating object creation/Static factory methods for Time (1)/out/
+/Topics/Encapsulating object creation/Static factory methods for Time (1)/out/production/classes/
+/Topics/Executors/Asynchronous email sending/out/
+/Topics/Executors/Asynchronous email sending/out/production/classes/
+/Topics/Executors/Check whether a number is prime/out/
+/Topics/Executors/Check whether a number is prime/out/production/classes/
+/Topics/Factory method/Clocks/out/
+/Topics/Factory method/Clocks/out/production/classes/
+/Topics/Factory method/Robot/out/
+/Topics/Factory method/Robot/out/production/classes/
+/Topics/Factory method/Robot factory/out/
+/Topics/Factory method/Robot factory/out/production/classes/
+/Topics/Factory method (1)/Burger store/out/
+/Topics/Factory method (1)/Burger store/out/production/classes/
+/Topics/Factory method (1)/Laptop store/out/
+/Topics/Factory method (1)/Laptop store/out/production/classes/
+/Topics/Function composition/The chain of responsibility/out/
+/Topics/Function composition/The chain of responsibility/out/production/classes/
+/Topics/Function composition/Theory/out/
+/Topics/Function composition/Theory/out/production/classes/
+/Topics/Functional data processing with streams/Count passwords/out/
+/Topics/Functional data processing with streams/Count passwords/out/production/classes/
+/Topics/Functional data processing with streams/Print elements of a stream/out/
+/Topics/Functional data processing with streams/Print elements of a stream/out/production/classes/
+/Topics/Functional data processing with streams/Theory/out/
+/Topics/Functional data processing with streams/Theory/out/production/classes/
+/Topics/Generic methods/Theory/out/
+/Topics/Generic methods/Theory/out/production/classes/
+/Topics/Grouping collectors/Palindrome or not/out/
+/Topics/Grouping collectors/Palindrome or not/out/production/classes/
+/Topics/Infinite streams/Generating cats/out/
+/Topics/Infinite streams/Generating cats/out/production/classes/
+/Topics/Manipulating fields and methods/Theory/out/
+/Topics/Manipulating fields and methods/Theory/out/production/classes/
+/Topics/Map and flatMap/Count words without repetitions/out/
+/Topics/Map and flatMap/Count words without repetitions/out/production/classes/
+/Topics/Map and flatMap/Maximum of the absolute values/out/
+/Topics/Map and flatMap/Maximum of the absolute values/out/production/classes/
+/Topics/Map and flatMap/Sorting the absolute values/out/
+/Topics/Map and flatMap/Sorting the absolute values/out/production/classes/
+/Topics/Map and flatMap/Statements/out/
+/Topics/Map and flatMap/Statements/out/production/classes/
+/Topics/Map and flatMap/Theory/out/
+/Topics/Map and flatMap/Theory/out/production/classes/
+/Topics/Match results/Check the essay/out/
+/Topics/Match results/Check the essay/out/production/classes/
+/Topics/Match results/Extracting big numbers from a text/out/
+/Topics/Match results/Extracting big numbers from a text/out/production/classes/
+/Topics/Match results/Extracting words from a text/out/
+/Topics/Match results/Extracting words from a text/out/production/classes/
+/Topics/Match results/Find all passwords/out/
+/Topics/Match results/Find all passwords/out/production/classes/
+/Topics/Observer/Fix me/out/
+/Topics/Observer/Fix me/out/production/classes/
+/Topics/Observer/Rockstar games/out/
+/Topics/Observer/Rockstar games/out/production/classes/
+/Topics/Observer/Theory/out/
+/Topics/Observer/Theory/out/production/classes/
+/Topics/Parameterized test/Theory/out/
+/Topics/Parameterized test/Theory/out/production/classes/
+/Topics/Patterns and Matcher/Find a word with a given length/out/
+/Topics/Patterns and Matcher/Find a word with a given length/out/production/classes/
+/Topics/Patterns and Matcher/In the middle of a word/out/
+/Topics/Patterns and Matcher/In the middle of a word/out/production/classes/
+/Topics/Patterns and Matcher/Number parsing/out/
+/Topics/Patterns and Matcher/Number parsing/out/production/classes/
+/Topics/Patterns and Matcher/Start or end of a word/out/
+/Topics/Patterns and Matcher/Start or end of a word/out/production/classes/
+/Topics/Reduction methods/Calculating factorials/out/
+/Topics/Reduction methods/Calculating factorials/out/production/classes/
+/Topics/Reduction methods/Sum of divisors/out/
+/Topics/Reduction methods/Sum of divisors/out/production/classes/
+/Topics/Reduction methods/Theory/out/
+/Topics/Reduction methods/Theory/out/production/classes/
+/Topics/Replacing characters with Regex/Check the essay/out/
+/Topics/Replacing characters with Regex/Check the essay/out/production/classes/
+/Topics/Replacing characters with Regex/Remove extra spaces/out/
+/Topics/Replacing characters with Regex/Remove extra spaces/out/production/classes/
+/Topics/Replacing characters with Regex/Remove HTML tags/out/
+/Topics/Replacing characters with Regex/Remove HTML tags/out/production/classes/
+/Topics/Retrieving Class instances/Theory/out/
+/Topics/Retrieving Class instances/Theory/out/production/classes/
+/Topics/Standard logger/Find integer values of Log levels/out/
+/Topics/Standard logger/Find integer values of Log levels/out/production/classes/
+/Topics/Standard logger/Theory/out/
+/Topics/Standard logger/Theory/out/production/classes/
+/Topics/Strategy/Max and Min/out/
+/Topics/Strategy/Max and Min/out/production/classes/
+/Topics/Strategy/Pick your team/out/
+/Topics/Strategy/Pick your team/out/production/classes/
+/Topics/Strategy/Theory/out/
+/Topics/Strategy/Theory/out/production/classes/
+/Topics/Stream filtering/Bad words detecting/out/
+/Topics/Stream filtering/Bad words detecting/out/production/classes/
+/Topics/Stream filtering/Check if a number is prime/out/
+/Topics/Stream filtering/Check if a number is prime/out/production/classes/
+/Topics/Stream filtering/Numbers filtering/out/
+/Topics/Stream filtering/Numbers filtering/out/production/classes/
+/Topics/Stream filtering/Omitting long strings/out/
+/Topics/Stream filtering/Omitting long strings/out/production/classes/
+/Topics/Stream pipelines/The ten most frequent words/out/
+/Topics/Stream pipelines/The ten most frequent words/out/production/classes/
+/Topics/Streams of primitives/A stream without zero/out/
+/Topics/Streams of primitives/A stream without zero/out/production/classes/
+/Topics/Streams of primitives/The average salary/out/
+/Topics/Streams of primitives/The average salary/out/production/classes/
+/Topics/Streams of primitives/Theory/out/
+/Topics/Streams of primitives/Theory/out/production/classes/
+/Topics/Taking elements/Secret codes/out/
+/Topics/Taking elements/Secret codes/out/production/classes/
+/Topics/Taking elements/Sorting and skipping numbers/out/
+/Topics/Taking elements/Sorting and skipping numbers/out/production/classes/
+/Topics/Taking elements/Theory/out/
+/Topics/Taking elements/Theory/out/production/classes/
+/Topics/Template method/Career/out/
+/Topics/Template method/Career/out/production/classes/
+/Topics/Template method/New customer/out/
+/Topics/Template method/New customer/out/production/classes/
+/Topics/Template method/Social networks/out/
+/Topics/Template method/Social networks/out/production/classes/
+/Topics/Template method/Template Method/out/
+/Topics/Template method/Template Method/out/production/classes/
+/Topics/Template method/Template Method (1)/out/
+/Topics/Template method/Template Method (1)/out/production/classes/
+/Topics/Template method/Theory/out/
+/Topics/Template method/Theory/out/production/classes/
+/Topics/ThreadLocal/Theory/out/
+/Topics/ThreadLocal/Theory/out/production/classes/

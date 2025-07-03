@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: ByteStream
+  - text: CharStream
+  - text: Stream&lt;String&gt;
+  - text: LongStream
+  - text: IntStream
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8409#comment
+status: Solved
+record: -1
+local_check: false

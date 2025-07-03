@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: '@Repeatable'
+  - text: '@Iterable'
+  - text: '@Multiple'
+  - text: '@Duplicatable'
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/12809#comment
+status: Solved
+record: -1
+local_check: false

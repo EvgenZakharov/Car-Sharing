@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: iterate
+  - text: stream
+  - text: generate
+  - text: for
+  - text: infiniteStream
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10181#comment
+status: Solved
+record: -1
+local_check: false

@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: rational numbers
+  - text: zero
+  - text: negative numbers
+  - text: numbers that are less than <b>Long.MAX_VALUE</b>
+  - text: numbers that are greater than <b>Long.MAX_VALUE</b>
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3776#comment
+status: Solved
+record: -1
+custom_name: What can BigInteger store?
+local_check: false

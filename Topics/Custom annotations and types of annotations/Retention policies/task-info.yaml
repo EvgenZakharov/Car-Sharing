@@ -1,0 +1,23 @@
+type: matching
+captions:
+  - SOURCE
+  - CLASS
+  - RUNTIME
+  - ALWAYS
+options:
+  - compiled code manipulations
+  - code manipulations during compilation
+  - actions at any point of program lifecycle
+  - actions during program execution process
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/12810#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3

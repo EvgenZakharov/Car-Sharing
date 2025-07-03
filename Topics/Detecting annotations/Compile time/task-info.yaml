@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Every annotation is visible in runtime
+  - text: '@Override'
+  - text: '@Deprecated'
+  - text: '@Test from JUnit'
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8115#comment
+status: Solved
+record: -1
+local_check: false
