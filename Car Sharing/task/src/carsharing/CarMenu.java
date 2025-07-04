@@ -40,10 +40,9 @@ public class CarMenu implements Menu {
                     break;
                 case 0:
 //                    return;
-                    ManagerMenu managerMenu = new ManagerMenu(scanner, companyDao, carDao, customerDao); // Переход в ManagerMenu
-                    managerMenu.display();
+                    new ManagerMenu(scanner, companyDao, carDao, customerDao).display(); // Переход в ManagerMenu
                 default:
-                    System.out.println("CarMenu: Invalid option. Please try again.");
+                    System.out.println("\n" + "CarMenu: Invalid option. Please try again.");
             }
         }
     }
@@ -67,7 +66,7 @@ public class CarMenu implements Menu {
 
         int tableIndex = carDao.findAll().size() + 1; // Простая логика генерации ID
         carDao.add(new Car(tableIndex, carName, numberOfCompany));
-        System.out.println("The car was added!");
+        System.out.println("\n" + "The car was added!");
     }
 
 }

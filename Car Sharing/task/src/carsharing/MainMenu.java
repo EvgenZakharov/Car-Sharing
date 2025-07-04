@@ -34,7 +34,7 @@ public class MainMenu implements Menu {
                     new ManagerMenu(scanner, companyDao, carDao, customerDao).display();
                     break;
                 case 2:
-                    new CustomerMenu(scanner, customerDao, carDao).display();
+                    new CustomerMenu(scanner, customerDao, carDao, companyDao).display();
                     break;
                 case 3:
                     createCustomer();
@@ -44,7 +44,7 @@ public class MainMenu implements Menu {
                     System.exit(0);
                     break;
                 default:
-                    System.out.println("MainMenu: Invalid option. Please try again.");
+                    System.out.println("\n" + "MainMenu: Invalid option. Please try again.");
             }
         }
     }
@@ -55,6 +55,6 @@ public class MainMenu implements Menu {
         int tableIndex = customerDao.findAll().size() + 1; // Простая логика генерации ID
 
         customerDao.add(new Customer(tableIndex, customerName, null));
-        System.out.println("The customer was added!");
+        System.out.println("\n" + "The customer was added!");
     }
 }

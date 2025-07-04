@@ -28,7 +28,7 @@ public class CompanyMenu implements Menu {
                 new CarMenu(scanner, new DbCarDao(), numberOfCompany, companyDao, customerDao).display();
             } else if (numberOfCompany == 0) {
                 return;
-            } else System.out.println("CompanyMenu: Invalid option. Please try again.");
+            } else System.out.println("\n" + "CompanyMenu: Invalid option. Please try again.");
         }
     }
 

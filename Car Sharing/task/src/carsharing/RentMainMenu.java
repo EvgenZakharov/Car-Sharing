@@ -8,12 +8,14 @@ public class RentMainMenu implements Menu{
     private final CustomerDao customerDao;
     private final int customerId;
     private final CarDao carDao;
+    private final CompanyDao companyDao;
 
-    public RentMainMenu(Scanner scanner, int customerId, CustomerDao customerDao, CarDao carDao) {
+    public RentMainMenu(Scanner scanner, int customerId, CustomerDao customerDao, CarDao carDao, CompanyDao companyDao) {
         this.scanner = scanner;
         this.customerDao = customerDao;
         this.customerId = customerId;
         this.carDao = carDao;
+        this.companyDao = companyDao;
     }
 
     @Override
@@ -33,7 +35,7 @@ public class RentMainMenu implements Menu{
                 case 1:
                     int idRentedCar = customerDao.findById(customerId).getRentedCarId();
                     if (idRentedCar != 0) {
-                        System.out.println("\n" + "You've already rented a car!" + " car id = " + idRentedCar);
+                        System.out.println("\n" + "You've already rented a car!");
                         break;
                     }
                     new RentCompanyMenu(scanner, new DbCompanyDao(), customerId, customerDao, carDao).display();
@@ -45,9 +47,10 @@ public class RentMainMenu implements Menu{
                     showRentedCar();
                     break;
                 case 0:
-                    return;
+//                    return;
+                    new MainMenu(scanner, customerDao, carDao, companyDao).display(); // Переход в MainMenu
                 default:
-                    System.out.println("RentMainMenu: Invalid option. Please try again.");
+                    System.out.println("\n" + "RentMainMenu: Invalid option. Please try again.");
             }
         }
     }
@@ -58,7 +61,9 @@ public class RentMainMenu implements Menu{
             System.out.println("\n" + "You didn't rent a car!");
         } else {
             Car car = carDao.findById(idRentedCar);
-            System.out.println("\n" +"Your rented car:" + "\n" + car.getName());
+            int companyId = car.getCompanyId();
+            System.out.println("\n" +"Your rented car:" + "\n" + car.getName() +
+                    "\n" + "Company:" + "\n" + companyDao.findById(companyId).getName());
         }
     }
 

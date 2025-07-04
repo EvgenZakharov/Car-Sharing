@@ -8,11 +8,13 @@ public class CustomerMenu implements Menu {
     private final Scanner scanner;
     private final CustomerDao customerDao;
     private final CarDao carDao;
+    private final CompanyDao companyDao;
 
-    public CustomerMenu(Scanner scanner, CustomerDao customerDao, CarDao carDao) {
+    public CustomerMenu(Scanner scanner, CustomerDao customerDao, CarDao carDao, CompanyDao companyDao) {
         this.scanner = scanner;
         this.customerDao = customerDao;
         this.carDao = carDao;
+        this.companyDao = companyDao;
     }
 
     @Override
@@ -30,10 +32,10 @@ public class CustomerMenu implements Menu {
             scanner.nextLine();
 
             if (numberOfCustomer <= customers.size() && numberOfCustomer > 0) {
-                new RentMainMenu(scanner, numberOfCustomer, customerDao, carDao).display();
+                new RentMainMenu(scanner, numberOfCustomer, customerDao, carDao, companyDao).display();
             } else if (numberOfCustomer == 0) {
                 return;
-            } else System.out.println("CustomerMenu: Invalid option. Please try again.Test");
+            } else System.out.println("\n" + "CustomerMenu: Invalid option. Please try again.Test");
         }
     }
 

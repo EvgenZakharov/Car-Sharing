@@ -10,13 +10,15 @@ public class RentCarMenu implements Menu {
     private final CustomerDao customerDao;
     private final int numberOfCompany;
     private final int customerId;
+    private final CompanyDao companyDao;
 
-    public RentCarMenu(Scanner scanner, CarDao carDao, CustomerDao customerDao, int numberOfCompany, int customerId) {
+    public RentCarMenu(Scanner scanner, CarDao carDao, CustomerDao customerDao, int numberOfCompany, int customerId, CompanyDao companyDao) {
         this.scanner = scanner;
         this.carDao = carDao;
         this.customerDao = customerDao;
         this.numberOfCompany = numberOfCompany;
         this.customerId = customerId;
+        this.companyDao = companyDao;
     }
 
     @Override
@@ -30,10 +32,11 @@ public class RentCarMenu implements Menu {
                 if (numberOfRentedCar <= carsByCompanyId.size() && numberOfRentedCar > 0) {
                     int rentedCarId = carsByCompanyId.get(numberOfRentedCar - 1).getId();
                     rentCar(customerId, rentedCarId);
+//                    return;
+                    new RentMainMenu(scanner, customerId, customerDao, carDao, companyDao).display(); // Переход в RentMainMenu
+                } else if (numberOfRentedCar == 0) { // Возврат в предыдущее меню
                     return;
-                } else if (numberOfRentedCar == 0) {
-                    return;
-                } else System.out.println("RentCarMenu: Invalid option. Please try again.");
+                } else System.out.println("\n" + "RentCarMenu: Invalid option. Please try again.");
             } else return;
         }
     }
@@ -45,12 +48,12 @@ public class RentCarMenu implements Menu {
             int numberOfRow = 0;
             for (Car car : carsByCompanyId) {
                 numberOfRow++;
-                System.out.println(numberOfRow + ". " + car.getName() /* + " , id = " + car.getId()*/);
+                System.out.println(numberOfRow + ". " + car.getName());
             }
             System.out.println("0. Back");
             return carsByCompanyId;
         } else {
-            System.out.println("\n" + "No available cars in the company id = " + id);
+            System.out.println("\n" + "No available cars in the company!");
             return null;
         }
     }
@@ -58,7 +61,7 @@ public class RentCarMenu implements Menu {
     private void rentCar(int customerId, int rentedCarId) {
         Customer customer = new Customer(customerId, rentedCarId);
         customerDao.update(customer);
-        System.out.println("You rented car id = " + customer.getRentedCarId());
+        System.out.println("\n" + "You rented '" + carDao.findById(rentedCarId).getName() + "'");
     }
 
 }

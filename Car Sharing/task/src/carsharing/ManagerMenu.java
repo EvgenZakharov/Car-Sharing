@@ -37,10 +37,9 @@ public class ManagerMenu implements Menu {
                     break;
                 case 0:
 //                    return;
-                    MainMenu mainMenu = new MainMenu(scanner, customerDao, carDao, companyDao); // Переход в MainMenu
-                    mainMenu.display();
+                    new MainMenu(scanner, customerDao, carDao, companyDao).display(); // Переход в MainMenu
                 default:
-                    System.out.println("ManagerMenu: Invalid option. Please try again.");
+                    System.out.println("\n" + "ManagerMenu: Invalid option. Please try again.");
             }
         }
     }
@@ -50,7 +49,7 @@ public class ManagerMenu implements Menu {
         String companyName = scanner.nextLine();
         int tableIndex = companyDao.findAll().size() + 1; // Простая логика генерации ID
         companyDao.add(new Company(tableIndex, companyName));
-        System.out.println("The company was created!");
+        System.out.println("\n" + "The company was created!");
     }
 
 }

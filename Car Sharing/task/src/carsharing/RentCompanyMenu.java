@@ -22,18 +22,21 @@ public class RentCompanyMenu implements Menu {
     @Override
     public void display() {
         List<Company> companies = companyDao.findAll();
-        while (true) {
-            showCompanyList(companies);
+        if (!companies.isEmpty()) {
+            while (true) {
+                showCompanyList(companies);
 
-            int numberOfCompany = scanner.nextInt();
-            scanner.nextLine();
+                int numberOfCompany = scanner.nextInt();
+                scanner.nextLine();
 
-            if (numberOfCompany <= companies.size() && numberOfCompany > 0) {
-                new RentCarMenu(scanner, carDao, customerDao, numberOfCompany, customerId).display();
-            } else if (numberOfCompany == 0) {
-                return;
-            } else System.out.println("RentCompanyMenu: Invalid option. Please try again.");
-        }
+                if (numberOfCompany <= companies.size() && numberOfCompany > 0) {
+                    new RentCarMenu(scanner, carDao, customerDao, numberOfCompany, customerId, companyDao).display();
+                } else if (numberOfCompany == 0) {
+                    return;
+                } else System.out.println("\n" + "RentCompanyMenu: Invalid option. Please try again.");
+            }
+        } else System.out.println("\n" + "The company list is empty!");
+
     }
 
     private void showCompanyList(List<Company> companies) {
@@ -45,6 +48,6 @@ public class RentCompanyMenu implements Menu {
                 System.out.println(numberOfRow + ". " + company.getName());
             }
             System.out.println("0. Back");
-        } else System.out.println("\n" + "The company list is empty!");
+        }
     }
 }

@@ -3,7 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../Car Sharing/task">
-      <sourceFolder url="file://$MODULE_DIR$/../../../../Car Sharing/task" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../Car Sharing/task/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../Car Sharing/task/build" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../Car Sharing/task/out" />
